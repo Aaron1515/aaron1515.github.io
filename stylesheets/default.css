@@ -32,6 +32,10 @@ body {
   background-color: gray;
 }
 
+.visited-links li a:visited {
+  text-decoration: none;
+}
+
 #mylogo {
   border-radius: 50px;
   border: solid 4px;
