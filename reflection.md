@@ -21,4 +21,4 @@ Few things I learned was don't spend too much time doing one thing and not pay a
 
 CSS is a great way to add a lot of style to the page.  With CSS you can change the whole look of the page with just changing a few things in CSS without touching html file.  If a client doesn't like the background color you can change it and not have to look through html to change it and it will also change the rest of the site instead of just one html file.  I also learned that you can have multiply CSS files so getting the concept of having two or more CSS was a big confusing and I ran into a bit of a rough patch with that.  After I make a few modifcation I was able to correct it with the second CSS instead of the default.
 
-![Link to live site](http://aaron1515.github.io/index.html)
+![Link to live site](index.html)
