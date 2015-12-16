@@ -1,6 +1,52 @@
-#nav-bar{
-  position: fixed;
-  background-color: lightblue;
+/*   Use for testing only!!!
+{
+  border: dashed;
+}
+*/
+body {
+  background-color: #43527B;
+}
+
+.navbar {
+  background-color: #9099B3;
   font-family: serif;
-  font-size: 14px;
+  font-size: 28px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding-top: 0px;
+
+}
+
+.inline-list li {
+  display: inline;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.remove-link li a {
+  text-decoration: none;
+}
+
+.hover-link li a:hover {
+  background-color: gray;
+}
+
+#mylogo {
+  border-radius: 50px;
+  border: solid 4px;
+  height: 250px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.change-link-dec p a {
+  text-decoration: none;
+}
+
+.linked-in img {
+  height: 22px;
+  width: 22px;
 }
