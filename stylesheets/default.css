@@ -33,7 +33,7 @@ body {
 }
 
 .visited-links li a:visited {
-  text-decoration: none;
+  color: blue;
 }
 
 #mylogo {
