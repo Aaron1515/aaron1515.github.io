@@ -4,53 +4,31 @@
 }
 */
 body {
-  background-color: #43527B;
+  background: url ("imgs/bike-car.jpg")no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
 }
 
-.navbar {
-  background-color: #9099B3;
-  font-family: serif;
-  font-size: 28px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  padding-top: 0px;
-
-}
-
-.inline-list li {
-  display: inline;
+ul {
   list-style-type: none;
-  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
 }
 
-.remove-link li a {
+li a {
+  display: block;
   text-decoration: none;
+  color: black;
 }
 
-.hover-link li a:hover {
-  background-color: gray;
+li a:hover {
+  background-color: blue;
+  color: white;
 }
 
-.visited-link li a:visited {
-  color: blue;
-}
-
-#mylogo {
-  border-radius: 50px;
-  border: solid 4px;
-  height: 250px;
-}
-
-p {
-  font-size: 20px;
-}
-
-.change-link-dec p a {
-  text-decoration: none;
-}
-
-.linked-in img {
-  height: 22px;
-  width: 22px;
+li a.active {
+  blackground: green;
+  color: white;
 }
