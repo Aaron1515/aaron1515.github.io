@@ -31,3 +31,24 @@
     background-color: #111;
 }
 
+.footer {
+    overflow: hidden;
+    display: table;
+    margin: 0 auto;
+
+}
+
+.footer ul {
+    margin-top: 80px;
+    padding-top: 20px;
+    list-style: none;
+}
+
+.footer ul li {
+    display: inline;
+
+}
+
+.footer li a {
+
+}

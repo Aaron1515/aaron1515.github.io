@@ -8,7 +8,7 @@ body {
 .top {
   color: white;
   text-align:center;
-  padding-top: 80px;
+  padding-top: 150px;
   padding-bottom: 300px;
 }
 
@@ -75,4 +75,8 @@ section img{
 
 h1 {
   text-align: center;
+}
+
+footer {
+
 }
