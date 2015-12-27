@@ -3,10 +3,23 @@ header {
   margin-bottom: 40px;
 }
 
+
+
 /* topic  */
 header h1 {
   text-align: center;
 }
+
+/* week  */
+header h3 {
+  text-align: center;
+}
+
+/* date  */
+header h4 {
+  text-align: center;
+}
+
 hr {
    border: 0;
    height: 1px;
@@ -25,12 +38,6 @@ h2 {
 
 }
 
-/* week  */
-h3 {
-
-}
-
-/* date  */
-h4 {
-
+code {
+  background-color: lightgray;
 }
