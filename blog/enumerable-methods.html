@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Blog Template Page</title>
-    <link rel="stylesheet" type"text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type "text/css" href="../stylesheets/default.css">
     <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
   </head>
 
@@ -17,59 +17,75 @@
         <ul class="nav-bar">
           <li><a href="../index.html" alt="Home page">Home</a></li>
           <li><a href="index.html" alt="Go to blog links">Blogs</a></li>
-          <li><a href="#"alt="Projects">Projects</a></li>
+          <li><a href="#" alt="Projects">Projects</a></li>
           <li><a href="../links.html" alt="Reference sites">Links</a></li>
           <li><a href="#" alt="About the aurthor">About Me</a></li>
         </ul>
       </nav>
     </header>
     <article>
-    <h2>Enumerable#map</h2>
-      <p></p>
-
+      <h2>Enumerable#map</h2>
+      <br>
+      <p>I decided to research <code>.map</code>. It seems like we will be using <code>.map</code> more than the other two enumerable. The <code>.map</code> will iterate over every object and puts it in a new array.  I have an example of how <code>.map</code> works</p>
+      <br>
+      <p>
+        <code>~> array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</code>
+        <br><code>=> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</code>
+        <br>Here we have an array of number from one to 10.
+        <br>
+        <br><code>~> array.map(&:odd?)</code>
+        <br><code>=> [true, false, true, false, true, false, true, false, true, false]</code>
+        <br> As you can see, ruby iterate over each number and put out each number as a true or false in an array. That is what the <code>.map</code> does.
+        <br>
+        <br>Here are some other ways you can also add on to the <code>.map</code> method.
+        <br>
+      </p>
+      <p><code>~> array.map(&:odd?).select { |odd_numbers| e == true}</code>
+        <br>
+        <code>=> [true, true, true, true, true]</code>
+        <br>Here you can use the <code>.map</code> to expand on true and only return true only.
+        <br>
+        <br>
+        <code>~> array.map(&:odd?).select { |odd_numbers| e == true}.count</code>
+        <br>
+        <code>=> 5</code>
+        <br> Here you can see that you can keep expaning on just the <code>.map</code>. You can keep adding to the code as you like because it returns as an array.
+      </p>
     </article>
     <hr>
     <article>
-    <h2>Enumerable#group_by</h2>
-      <p>Blog text goes here</p>
+      <h2>Enumerable#group_by</h2>
+      <p>decided to research #map</p>
     </article>
     <hr>
     <article>
-    <h2>Enumerable#cycle</h2>
-      <p>Blog text goes here</p>
+      <h2>Enumerable#cycle</h2>
+      <p>decided to research #map</p>
     </article>
     <br>
-      <footer class="footer">
-        <ul>
-          <li><a href="https://github.com/Aaron1515"><img src="../imgs/github10.png"></a></li>
-          <li><a href="https://www.facebook.com/aaron1515"><img src="../imgs/facebook2.png"></a></li>
-          <li><a href="https://www.linkedin.com/in/aaron1515"><img src="../imgs/linkedin.png"></a></li>
-          <li><a href="https://twitter.com/aaron6063"><img src="../imgs/twitter.png"></a></li>
-          <li><a href="mailto:aaron1515@gmail.com"><img src="../imgs/email131.png"></a></li>
-          <li><a href="#"><img src="../imgs/phone.png"></a></li>
-        </ul>
-        <p>Website created by Aaron Hu 2015</p>
-      </footer>
+    <footer class="footer">
+      <ul>
+        <li>
+          <a href="https://github.com/Aaron1515"><img src="../imgs/github10.png"></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/aaron1515"><img src="../imgs/facebook2.png"></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/aaron1515"><img src="../imgs/linkedin.png"></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/aaron6063"><img src="../imgs/twitter.png"></a>
+        </li>
+        <li>
+          <a href="mailto:aaron1515@gmail.com"><img src="../imgs/email131.png"></a>
+        </li>
+        <li>
+          <a href="#"><img src="../imgs/phone.png"></a>
+        </li>
+      </ul>
+      <p>Website created by Aaron Hu 2015</p>
+    </footer>
   </body>
 
 </html>
-
-
-<!--
-How was it to wireframe and create an HTML page with a pair?
-
-When we came together and split up the work, who will do the wireframe and who will do the translation from wireframe to html syntax.  We breeze through it pretty fast.
-
-Did you find wireframing to be helpful to your development process?
-
-Yes, I found it extremely useful to create a wireframe first then create something from it and how where things are going to be located.
-
-What did you and your pair decide made a good wireframe?
-
-We split the work load, we put our ideas together and know what we wanted in a wireframe.  Since we split the work load, as long as it has my ideas and what I want it to have.  It would look un-natural because of the styling isn't on the page yet.  So therefor when the styling comes in to place.  It could be the same but have a totally different look and feel to it but the basic idea would be the same.
-
-What new semantic elements did you learn about (if any)?
-
-I learned a new semantic called "nav".  With nav is generally place on top of the screen for the naviagtion of the page.
-
--->
