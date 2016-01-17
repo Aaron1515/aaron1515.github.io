@@ -33,11 +33,17 @@ article {
   margin-top: 30px;
 }
 
-/* title  */
+/* title still working on this */
 h2 {
 
 }
 
 code {
   background-color: lightgray;
+}
+
+.sample-code{
+  posistion: absolute;
+  width: 100%;
+  min-width: 1000px;
 }
