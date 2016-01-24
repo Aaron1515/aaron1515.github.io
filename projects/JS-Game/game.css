@@ -1,0 +1,64 @@
+.player {
+    float: left;
+}
+
+.enemy {
+    float: right;
+}
+
+.player-names{
+    margin: auto;
+    width: 60%;
+}
+
+.punch{
+    width:48%;
+    display: inline-block;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.special{
+    width: 48%;
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.game{
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    border-style: double;
+    boarder-color: blue;
+    padding: 5px 5px 10px 10px;
+    margin: 10px 100px 10px 100px;
+}
+
+.name-input {
+text-align: center;
+font-size: 20px;
+}
+
+p {
+   text-align: center;
+   font-family:Georgia;
+   font-size: 40px;
+}
+
+.foot-p {
+    font-size: 14px;
+}
+
+.img1 {
+    height: 400px;
+}
+
+.name-input p {
+    font-size: 14px;
+    width: 40%;
+    margin: auto;
+    padding-top: 40px;
+}
