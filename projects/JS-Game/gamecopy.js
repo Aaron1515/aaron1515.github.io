@@ -4,10 +4,16 @@ startButton.addEventListener('click', newGame);
 function showGameBox() {
   var gameBox = document.getElementById('game');
   gameBox.style.display = 'block';
-}
+};
+
+function showGameBox() {
+var audio = new Audio('http://216.227.134.162/ost/street-fighter-2-turbo/qvifdxccss/02.-player-select.mp3');
+audio.play();
+};
 
 function newGame(){
   showGameBox();
+
   var inputBox = document.getElementById('name-input');
   inputBox.style.display = 'none';
   var playerName = document.getElementById('name_newplayer');
