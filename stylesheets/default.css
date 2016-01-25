@@ -35,7 +35,6 @@
     overflow: hidden;
     display: table;
     margin: 0 auto;
-
 }
 
 .footer ul {
@@ -46,13 +45,14 @@
 
 .footer ul li {
     display: inline;
-
-}
-
-.footer li a {
-
 }
 
 .footer p {
     float: right;
+    margin: 0 0 0 0;
+    font-size: 14px;
+}
+
+.footer ul li img {
+    height: 40px;
 }
