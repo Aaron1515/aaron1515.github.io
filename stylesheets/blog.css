@@ -30,6 +30,10 @@ hr {
 article {
   margin-left: 10%;
   margin-right: 10%;
+  box-shadow: 10px 10px 5px grey;
+  border-style: solid;
+  border-width: 1px;
+  padding: 20px;
 }
 
 code{
@@ -40,4 +44,9 @@ code{
 
 .sample-code{
   width: 100%;
+}
+
+.beginner_rspec{
+  min-width: 700px;
+  width: 100%
 }
