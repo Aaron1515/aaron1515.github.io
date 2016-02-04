@@ -33,14 +33,12 @@ function newGame(){
     currentGame.punch();
     p1HealthDisplay.textContent = currentGame.player1.health;
     enemyHealthDisplay.textContent = currentGame.computer.health;
-
   });
   specialButton.addEventListener('click',function(){
     currentGame.special()
     p1HealthDisplay.textContent = currentGame.player1.health;
     enemyHealthDisplay.textContent = currentGame.computer.health;
   });
-
 };
 
 function Player(name){
@@ -66,10 +64,6 @@ function Game (firstPlayer, secondPlayer){
       } else if (this.player1.health <= 0) {
         alert('You\'re dead.  Game Over!!!');
       }
-      // else {
-      //   console.log(this.player1.name + '\'s new health is ' + this.player1.health);
-      //   console.log(this.computer.name + '\'s new health is ' + this.computer.health);
-      // }
   };
   this.special = function () {
     this.computer.takeLargeDamage();
@@ -79,9 +73,5 @@ function Game (firstPlayer, secondPlayer){
       } else if (this.player1.health <= 0) {
         alert('You\'re dead.  Game Over!!!');
       }
-      // else {
-      //   console.log(this.player1.name + '\'s new health is ' + this.player1.health);
-      //   console.log(this.computer.name + '\'s new health is ' + this.computer.health);
-      // }
   };
 };
